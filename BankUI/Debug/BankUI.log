@@ -1,0 +1,35 @@
+﻿生成启动时间为 2018/1/22 21:30:18。
+     1>项目“C:\Users\toy---soldier\Desktop\c&c++\project1\BankUI\BankUI\BankUI.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\BankUI.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“Debug\BankUI.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         d:\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\BankUI.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\BankUI.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BankUI.cpp BankUIDlg.cpp MainDig.cpp Mysql_Op.cpp
+         Mysql_Op.cpp
+         MainDig.cpp
+         BankUIDlg.cpp
+         BankUI.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\BankUI.res" BankUI.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\BankUI.exe.embed.manifest.res" Debug\BankUI_manifest.rc 
+       Link:
+         d:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\toy---soldier\Desktop\c&c++\project1\BankUI\Debug\BankUI.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\BankUI.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\toy---soldier\Desktop\c&c++\project1\BankUI\Debug\BankUI.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\toy---soldier\Desktop\c&c++\project1\BankUI\Debug\BankUI.lib" /MACHINE:X86 Debug\BankUI.res
+         Debug\BankUI.exe.embed.manifest.res
+         Debug\BankUI.obj
+         Debug\BankUIDlg.obj
+         Debug\MainDig.obj
+         Debug\Mysql_Op.obj
+         Debug\stdafx.obj
+     1>Mysql_Op.obj : error LNK2019: 无法解析的外部符号 _mysql_init@4，该符号在函数 "public: __thiscall Mysql_Op::Mysql_Op(void)" (??0Mysql_Op@@QAE@XZ) 中被引用
+     1>Mysql_Op.obj : error LNK2019: 无法解析的外部符号 _mysql_real_connect@32，该符号在函数 "public: bool __thiscall Mysql_Op::MysqlConnect(void)" (?MysqlConnect@Mysql_Op@@QAE_NXZ) 中被引用
+     1>C:\Users\toy---soldier\Desktop\c&c++\project1\BankUI\Debug\BankUI.exe : fatal error LNK1120: 2 个无法解析的外部命令
+     1>已完成生成项目“C:\Users\toy---soldier\Desktop\c&c++\project1\BankUI\BankUI\BankUI.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.99

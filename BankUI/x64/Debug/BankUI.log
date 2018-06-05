@@ -1,0 +1,46 @@
+﻿生成启动时间为 2018/2/1 10:29:33。
+     1>项目“C:\Users\toy---soldier\Desktop\c&c++\project1\BankUI\BankUI\BankUI.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Debug\BankUI.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         d:\vs2010\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\BankUI.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt LogInMenu.cpp
+         LogInMenu.cpp
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         d:\vs2010\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\toy---soldier\Desktop\c&c++\project1\BankUI\x64\Debug\BankUI.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"x64\Debug\BankUI.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\toy---soldier\Desktop\c&c++\project1\BankUI\x64\Debug\BankUI.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\toy---soldier\Desktop\c&c++\project1\BankUI\x64\Debug\BankUI.lib" /MACHINE:X64 x64\Debug\BankUI.res
+         x64\Debug\BankUI.exe.embed.manifest.res
+         x64\Debug\BankUI.obj
+         x64\Debug\BankUIDlg.obj
+         x64\Debug\Card.obj
+         x64\Debug\C_AIVoice.obj
+         x64\Debug\C_ChangePwd.obj
+         x64\Debug\Deposite.obj
+         x64\Debug\Function.obj
+         x64\Debug\CLanguage.obj
+         x64\Debug\LogInMenu.obj
+         x64\Debug\MysqlForBank.obj
+         x64\Debug\Mysql_Op.obj
+         x64\Debug\ShowBlance.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\Transfer.obj
+         x64\Debug\TransferMain.obj
+         x64\Debug\WithDraw.obj
+         BankUI.vcxproj -> C:\Users\toy---soldier\Desktop\c&c++\project1\BankUI\x64\Debug\BankUI.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\BankUI.exe.embed.manifest" /manifest x64\Debug\BankUI.exe.intermediate.manifest d:\vs2010\VC\Include\Manifest\dpiaware.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         BankUI.vcxproj -> C:\Users\toy---soldier\Desktop\c&c++\project1\BankUI\x64\Debug\BankUI.exe
+       FinalizeBuildStatus:
+         正在删除文件“x64\Debug\BankUI.unsuccessfulbuild”。
+         正在对“x64\Debug\BankUI.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\toy---soldier\Desktop\c&c++\project1\BankUI\BankUI\BankUI.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.20
